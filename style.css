@@ -9,16 +9,15 @@ body {
 h2 {
     font-family: 'Permanent Marker', cursive;
     color: rgba(158, 3, 248, 0.6);
-    font-size: 25px;
-    width: 120px;
+    font-size: 2em;
+    width: 4.5em;
     text-align: center;
-    border: 5px ridge black;
-    border-style: inset;
+    border: 5px inset black;
 }
 
 p {
     font-family: 'Courgette', cursive;
-    font-size: 17px;
+    font-size: 1.2rem;
     margin-top: -15px;
     margin-bottom: 30px;
 }
@@ -26,11 +25,10 @@ p {
 .maincast {
     font-family: 'Permanent Marker', cursive;
     color: rgba(6, 2, 231, 0.8);
-    font-size: 25px;
-    width: 150px;
+    font-size: 2em;
+    width: 5.5em;
     text-align: center;
-    border: 5px ridge black;
-    border-style: inset;
+    border: 5px inset black;
 }
 
 .ladies, .enemies {
@@ -46,8 +44,8 @@ p {
 }
 
 img {
-    width: 250px;
-    height: 700px;
+    width: 94%;
+    height: 97%;
     margin: 5px;
 }
 

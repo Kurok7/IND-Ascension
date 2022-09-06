@@ -14,18 +14,38 @@ heroes.addEventListener('click', function(e) {
     }
 });
 
-// let bad = document.querySelector('.enemies');
-// bad.addEventListener('click', function(d) {
-//     if (d.target.className == 'lupei-md') {
-//         alert("April, the first Herald to ascend to Stage 2 and a Class 4 Herald descended from Prometheus.")
-//     } else (d.target.className == 'vesper-md') {
-//         alert("Vesper, childhood friend of April and a Class 3 Herald descended from Apollo.")
-//     }
-// });
+/*      ATTEMPTED SWITCHING TO SWITCH STATEMENT FROM IF/ELSE!
+heroes.addEventListener('click', function(e) {
+    
+
+    switch (heroes) {
+        case document.querySelector(".lead-md"):
+            alert('Eliza, leader of this group of Heralds and a Class 5 Herald descended from Zeus.')
+            break;
+        case document.querySelector(".princess-md"):
+            alert('Akiko, the oldest Herald of the group and a Class 3 Herald descended from Gaia.')
+            break;
+        default:
+            alert("Try again");
+    }
+}); */
+
 function myProdigy() {
-   alert("April, the first Herald to ascend to Stage 2 and a Class 4 Herald descended from Prometheus.");
+    alert("April, the first Herald to ascend to Stage 2 and a Class 4 Herald descended from Prometheus.");
 }
 
 function mySaber() {
-  alert("Vesper, childhood friend of April and a Class 3 Herald descended from Apollo.");
+    alert("Vesper, childhood friend of April and a Class 3 Herald descended from Apollo.");
 }
+
+/*          DOESN'T WORK ALTHOUGH THE ABOVE CODE DOES WORK FOR THE HEROE'S SIDE!
+let bad = document.querySelector('.enemies');
+bad.addEventListener('click', function(d) {
+    if (d.target.className == 'lupei-md') {
+        alert("April, the first Herald to ascend to Stage 2 and a Class 4 Herald descended from Prometheus.")
+    } else (d.target.className == 'vesper-md') {
+        alert("Vesper, childhood friend of April and a Class 3 Herald descended from Apollo.")
+    }
+}); */
+
+
